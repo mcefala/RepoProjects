@@ -4,22 +4,22 @@ RepoProjects
 Some of my projects
 ---
 
-===
+
 Encryptin
 ===
 
 Encryptin is a Google Chrome extension that allows easy and fast encryption and decryption of files. 
 Encryptin uses AES (Advanced Encryption Standard) to encrypt files.
 ---
-===
+
 Permessi
 ===
+
 is a java application to manage the employees permissions on postgresql DB
 
 ---
 LICENSE
----
-
+===
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
 files (the "Software"), to deal in the Software without
