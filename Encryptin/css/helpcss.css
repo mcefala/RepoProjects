@@ -1,0 +1,22 @@
+a
+{
+text-decoration: none;
+}
+
+body
+{ 
+background-image:url('../images/ico.png');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: 115% 100%;
+background-position:center; 
+}
+
+footer{
+position: fixed;
+    bottom: 20px;
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}

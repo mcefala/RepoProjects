@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>hkey</title>
+<style>
+body
+{ 
+background-image:url('../images/ico.png');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: 115% 100%;
+background-position:center; 
+}
+footer{
+position: fixed;
+    bottom: 20px;
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<h1 align="center">Chiave</h1>
+<div style="margin-left: 10%">
+<div style="margin-right: 36%">
+Per cifrare i file Encryptin utilizza l'algoritmo di cifratura a blocchi AES (Rijndael)
+utilizzato come standard dal governo degli Stati Uniti d'America.<br><br>
+Per poter essere implementato l'algoritmo ha bisogno di una chiave che verrà generata in modo
+casuale da Enrcryptin stesso.<br><br>
+</div>
+<div style="margin-right:10%">
+Per generare la chiave non bisogna fare altro che premere Generate New Key nel menù 
+	<a href="#" onmouseover="showimg('key', 1)" onmouseout="showimg('key', 0)">
+	KEY OPTIONS
+	</a>
+	<div style="
+	position: absolute;
+	visibility:hidden;
+	border:solid 1px #CCC;
+	padding:5px;
+	left: 0%;
+	" id = "key">
+	<img src="himage/img8.png">
+	</div>.<br><br>
+	<span style="color: red" > E' importante salvare la chiave altrimenti non sarà più possibile decifrare i files una volta persa la chiave di cifratura.</span>
+	<br><br>A questo proposito dal menu' key options è anche possibile esportare su file la chiave,
+	importare in Encryptin una chiave già in possesso dell'utente ed infine, cancellare la chiave memorizzata
+	nel browser.<br><br>
+	<span style="color: red" >La cancellazione è irreversibile quindi è fondamentale salvare copia della chiave su un dispositivo personale. <br> <br> <br> RICORDATI DI SALVARE LA TUA CHIAVE!!!</span>
+	<br>
+	<br>
+	<br>
+	<a href="hkeye.html"><img src="../images/flage.png"></a>
+</div>
+</div>
+</body>
+<footer align="">
+ <p align="center"><small>Creato da <a href = "mailto:m.cefala@gmail.com">Marco Cefalà</a></small></p>
+</footer>
+<script src = "htool.js"></script>
+</html>

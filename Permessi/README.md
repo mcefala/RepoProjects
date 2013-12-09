@@ -1,0 +1,1 @@
+Permessi è una applicazione in java che permette di gestire su database (postgresql) permessi e recuperi del personale

@@ -1,0 +1,59 @@
+{
+"manifest_version": 2,
+
+"short_name": "Encrypt",
+
+"description": "Encryptin allows to encrypt and decrypt file to and from your Dropbox.",
+
+"name": "Encryptin",
+
+"version":"1.0.30",
+
+"permissions": [
+    "tabs", 
+   	"*://*.dropbox.com/*",
+   	"contextMenus",
+   	"downloads",
+   	"webRequest"
+  ],
+  
+  "icons":{
+	"19": "images/ico.png",
+	"38": "images/ico.png",
+	"128":"images/ico.png"
+	},
+
+	"sandbox": {
+  "pages": [
+  "help/howto.html",
+  "help/howtoe.html",
+  "help/hkey.html",
+  "help/hkeye.html",
+  "help/hset.html",
+  "help/hsete.html",
+  "help/hdrop.html",
+  "help/hdrope.html",
+  "help/hlocal.html",
+  "help/hlocale.html"
+  ]
+	},
+
+"background": {
+    "scripts": ["javascript/background.js"],
+    "persistent":true
+  },
+  
+"browser_action":{
+	"default_icon":{
+	"19": "images/icosmall.png",
+	"38": "images/ico.png",
+	"128":"ico.png"
+	},
+	"default_title" : "Encryptin",
+	"default_popup" : "html/welcome.html"
+	},
+
+    "homepage_url": "https://chrome.google.com/webstore/detail/pgljpncbcnncafepodgdempepdehapab",
+
+	"content_security_policy": "script-src 'self' https://www.dropbox.com/ ; object-src 'self'"
+}
