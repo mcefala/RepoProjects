@@ -1,16 +1,15 @@
 RepoProjects
 ============
-
 Some of my projects
----
+
 
 
 Encryptin
 ===
 
-Encryptin is a Google Chrome extension that allows easy and fast encryption and decryption of files. 
+Encryptin is a Google Chrome extension that allows easy and fast encryption and decryption of files.
 Encryptin uses AES (Advanced Encryption Standard) to encrypt files.
----
+
 
 Permessi
 ===
