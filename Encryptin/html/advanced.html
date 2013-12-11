@@ -2,18 +2,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Encryptin</title>
+<title>Advanced</title>
 <link href="../css/style.css" rel="stylesheet" type="text/css">
+
 </head>
-
 <body>
-<span id = "sessionPw"></span>
-<p style="color:red; font-size: large;" align ="center"><nobr>WARNING!!! <br><br>&nbsp&nbsp It is very important to save the key.<br> Once the key is lost, it won't be possible to<br> decrypt your encrypted files anymore.<br>  Are you sure?&nbsp&nbsp</nobr></p><br>
-<nobr><a href="#" id="yes"><div style="width: 35%; float:left" class="link" align="center">Yes</div></a>&nbsp&nbsp&nbsp&nbsp<a href="#" id="back"><div class="link" style="width: 35%; float:right" align="center">No</div></a></nobr>
-<br>
-<br>
-<span style="visibility:hidden" id = "ok"></span>
-
+<p id = "name" style="color:green"> </p>
+<input type="password" id="sessionPw">
+<div id = "ok" style="color:green"> Ok! </div>
+<hr>
+<nobr><a href="#" id="koptions" ><div class="link"><img src="../images/key.png"> Key Options</div></a></nobr>
+<hr>
+<nobr><a href="#" id="brw"><div class="link"><img src="../images/X.png"> Delete me from this browser</div></a></nobr>
+<hr>
+<nobr><a href="#" id="back"><div class="link"><img src="../images/back.png"> Back</div></a></nobr>
 
 <script src="../cryptoJS/rollups/pbkdf2.js"></script>
 <script src="../cryptoJS/components/core-min.js"></script>
@@ -23,7 +25,7 @@
 <script src="../cryptoJS/components/sha1-min.js"></script>
 <script src="../cryptoJS/rollups/sha1.js"></script>
 <script src="../cryptoJS/rollups/aes.js"></script>
-<script src="../javascript/removekeypop.js"></script>
 <script src="../utils/tools.js"></script>
+<script src="../javascript/advanced.js"></script>
 </body>
 </html>

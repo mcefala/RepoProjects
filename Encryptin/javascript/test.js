@@ -30,7 +30,7 @@ if (localStorage.remember == 0) {
 			}
 					else
 					{
-						document.getElementById('testarea').innerHTML="Couldn't connect to dropbox";
+						document.getElementById('testarea').innerHTML="<div align='center'><nobr>Couldn't connect<nobr><br> to Dropbox</div>";
 						}
 					
 			}
