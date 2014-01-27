@@ -28,7 +28,7 @@ function fileSelectCR(evt) {
 	      passok();	     
       };
       r.readAsArrayBuffer(f);
-	window.location.hreg("welcome.html");
+	window.location.href("welcome.html");
     } else { 
     	passok();
       alert("Failed to load file");
