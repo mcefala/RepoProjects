@@ -25,11 +25,10 @@ function fileSelectCR(evt) {
     	  var encrypted = CryptoJS.AES.encrypt(forwarr, localStorage.chiave,{iv : iv});	  
     	  var blob = new Blob([encrypted]);
 	      saveAs(blob, f.name+".encrypted");
-	      passok();
-	   // window.location.href='welcome.html';
-	     
+	      passok();	     
       };
       r.readAsArrayBuffer(f);
+	window.location.hreg("welcome.html");
     } else { 
     	passok();
       alert("Failed to load file");

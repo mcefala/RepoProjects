@@ -50,7 +50,7 @@
 	"128":"ico.png"
 	},
 	"default_title" : "Encryptin",
-	"default_popup" : "html/welcome.html"
+	"default_popup" : "html/start.html"
 	},
 
     "homepage_url": "https://chrome.google.com/webstore/detail/pgljpncbcnncafepodgdempepdehapab",
